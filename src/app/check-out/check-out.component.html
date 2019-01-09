@@ -7,7 +7,7 @@
         <input
           #name="ngModel"
           name="name"
-          ngModel
+          [(ngModel)]="shipping.name"
           type="text"
           class="form-control"
           required
@@ -21,7 +21,7 @@
         <input
           #addressLine1="ngModel"
           name="addressLine1"
-          ngModel
+          [(ngModel)]="shipping.addressLine1"
           type="text"
           class="form-control"
           placeholder="Line 1"
@@ -41,7 +41,7 @@
         <input
           #addressLine2="ngModel"
           name="addressLine2"
-          ngModel
+          [(ngModel)]="shipping.addressLine2"
           type="text"
           class="form-control"
           placeholder="Line 2"
@@ -61,7 +61,7 @@
         <input
           #city="ngModel"
           name="city"
-          ngModel
+          [(ngModel)]="shipping.city"
           type="text"
           class="form-control"
           required
