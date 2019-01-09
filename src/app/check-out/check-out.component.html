@@ -1,6 +1,6 @@
 <h2>Shipping</h2>
 <div class="row">
-  <div class="col-12">
+  <div class="col-6">
     <form #f="ngForm">
       <div class="form-group">
         <label for="">Name</label>
@@ -78,5 +78,9 @@
         Place Order
       </button>
     </form>
+  </div>
+
+  <div class="col-6">
+    <shopping-cart-summary [cart]="cart"></shopping-cart-summary>
   </div>
 </div>
